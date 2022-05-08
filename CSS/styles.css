@@ -1,0 +1,72 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 183) 90%
+  );
+  font-weight: bold;
+  padding: 100px;
+}
+h1 {
+  color: #ff6464;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+h2 {
+  text-align: center;
+  color: #ff8040;
+  padding: 0 0 24px;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+ul {
+  list-style: none;
+  color: #95cd42;
+  font-size: 20px;
+  text-align: center;
+}
+p {
+  color: #95cd42;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0 0 24px;
+}
+img {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+button {
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  border: 5px solid #ff6464;
+  color: #ff6464;
+  font-size: 16px;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: all 200ms ease;
+  box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+  color: white;
+  background-color: #ff6464;
+}
+.SheCodes-basics {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+.reasons {
+  color: #ff8040;
+}
+.helping {
+  display: block;
+  text-align: center;
+  font-family: cursive;
+}

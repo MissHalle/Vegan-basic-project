@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-wwidth, initial-scale=1.0" />
+    <title>Vegan Lifestyle 🌳</title>
+  </head>
+  <body>
+    <div class="SheCodes-basics">
+      <h1>🌍 Hello! This page is here to talk about Veganism! 🌏</h1>
+      <h2>
+        🐝 What is <em>Veganism</em>? Veganism is a lifestyle when you choose to
+        not eat, wear, or use animal products! 🦈
+      </h2>
+      <hr />
+      <p>
+        🌱 Veganism is the practice of excluding all animal products; dairy
+        (think yogurt, milk, and cheese), any and all meat of any animals (even
+        fish), aggs, and honesy. People who go into veganism do so for many
+        reasons, here are some popular reasons:
+      </p>
+      <ul>
+        <strong>
+          <li>🌎 <span class="reasons"> Enivornmental impact</span></li>
+          <li>🐮 <span class="reasons"> Animals wellbeing</span></li>
+          <li>🥳 <span class="reasons"> Personal choice</span></li>
+          <br />
+        </strong>
+      </ul>
+      <p>
+        So even though you may not drink cow milk or eat animal meat as a vegan,
+        you can still enjoy a wide variety of milk or meat alternatives made by
+        plants and this is true for all non-vegan to vegan options! This is the
+        mind set to replace animal products for the animals! 🍄
+      </p>
+      <a href="https://vegancheatsheet.org/" target="_blank" class="helping">
+        Tips and tricks on become vegan!
+      </a>
+      <br />
+      <img
+        src="https://3z6mv8219w2s2w196j1dkzga-wpengine.netda-ssl.com/wp-content/uploads/2019/10/Go-Vegan-Shutterstock.jpg"
+        alt=""
+      />
+      <br />
+      <button>Veganism</button>
+      <script>
+        function signUp() {
+          let firstName = prompt(
+            "What is your first name and favorite animal emoji?"
+          );
+          let currentStatus = prompt("Are you vegan already?");
+
+          if (currentStatus !== "yes") {
+            alert(
+              "That's cool that you're here, " +
+                firstName +
+                " How awesome do you feel?"
+            );
+          } else {
+            alert(
+              "Hi, " +
+                firstName +
+                "! How awesome for you, the planet, and the animals! "
+            );
+          }
+        }
+
+        let signUpButton = document.querySelector("button");
+        signUpButton.addEventListener("click", signUp);
+      </script>
+    </div>
+  </body>
+</html>
